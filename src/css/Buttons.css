@@ -1,0 +1,28 @@
+button {
+    margin: 0 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 32px;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: red;
+}
+
+
+#logIn {
+    background-color: greenyellow;
+    color: black;
+}
+
+#logOut {
+    background-color: rgb(238, 101, 101);
+    color: black;
+}

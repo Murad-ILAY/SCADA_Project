@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+
+

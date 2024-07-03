@@ -1,0 +1,11 @@
+#reservoirs-container {
+    width: fit-content;
+    border: 5px solid red;
+    display: flex;
+    margin-left: 80px;
+}
+
+#dashboard #reservoirs-container :nth-child #reservoir .barcontainer .bar {
+    height: 10% !important;
+
+}
