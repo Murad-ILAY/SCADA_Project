@@ -1,7 +1,25 @@
 #pump-1 {
+    margin: 80px 10px 10px 60px !important;
+    /* border: 5px solid red; */
+}
+
+.my_pump {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 3px solid green; */
     width: 100px;
-    height: 80px;
-    border-radius: 40%;
-    margin:80px 10px 10px 60px;
-    border: 5px solid red;
+    height: 100px;
+    /* background-color: aliceblue; */
+    border-radius: 30%;
+    font-size: 20px;
+    margin-top: 80px;
+    z-index: 1;
+    /* border: 2px solid green; */
+}
+
+.my_pump h5{
+    position: absolute;
+    top: 105px;
+    left: -10px;
 }

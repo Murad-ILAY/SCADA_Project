@@ -1,11 +1,217 @@
 #reservoirs-container {
     width: fit-content;
-    border: 5px solid red;
     display: flex;
-    margin-left: 80px;
+    /* border: 2px solid red; */
+    /* position: absolute; */
 }
 
-#dashboard #reservoirs-container :nth-child #reservoir .barcontainer .bar {
-    height: 10% !important;
+#dashboard {
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 50px 80px;
+    display: block;
+    height: 88vh;
+}
 
+.common_pipeline_close {
+    background-color: white;
+}
+
+.common_pipeline_active {
+    background-color: red;
+}
+
+#tank_1_exit_pipe {
+    position: absolute;
+    left: 200px;
+    top: 307px;
+    width: 10px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+#tank_2_exit_pipe {
+    position: absolute;
+    left: 450px;
+    top: 307px;
+    width: 10px;
+    height: 107px;
+    border-radius: 10px;
+}
+
+#tank_1_2_common_pipe {
+    position: absolute;
+    left: 165px;
+    top: 405px;
+    width: 295px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#pump1_entry_pipe {
+    position: absolute;
+    left: 165px;
+    top: 405px;
+    width: 10px;
+    height: 245px;
+    border-radius: 10px;
+}
+
+/*  Valve configurations */
+#valve_image {
+    /* valve dimensions to fit the container. Same for all valves*/
+    width: 100%;
+}
+
+.valve_container {
+    /* valve container dimensions. Same for all valve containers*/
+    width: 95px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#valve_1 {
+    position: absolute;
+    left: 270px;
+    top: 350px;
+    border-radius: 10px;
+    /* rotate: -90deg; */
+    z-index: 1;
+}
+
+#valveTagname {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+
+
+#pump-1 {
+    position: absolute;
+    left: 18px;
+    top: 465px;
+}
+
+#pump_1_exit_pipe {
+    position: absolute;
+    left: 207px;
+    top: 678px;
+    width: 300px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.transmitter_position {
+    position: absolute;
+    top: 597px;
+    left: 500px;
+    border-radius: 35px;
+}
+
+#pressure_1_exit_pipe {
+    position: absolute;
+    left: 500px;
+    top: 678px;
+    width: 1200px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+/* Compressor room configuration */
+#compressor_container {
+    position: absolute;
+    width: 600px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    left: 800px;
+    bottom: 200px;
+}
+
+.compressors_dimensions {
+    height: 400px;
+}
+
+
+/* Flame detectors configuration */
+.flame_detectors_size {
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.flame_container {
+    height: 100px;
+    width: 130px;
+    position: absolute;
+}
+
+#flame_R {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+
+}
+
+#flame_L {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#flame_1_1_comp_1 {
+    position: absolute;
+    left: 690px;
+    top: 130px;
+}
+
+#flame_3_1_comp_3 {
+    position: absolute;
+    right: 360px;
+    top: 127px;
+}
+
+#flame_1_2_comp_1 {
+    position: absolute;
+    left: 690px;
+    bottom: 170px;
+}
+
+#flame_3_2_comp_3 {
+    position: absolute;
+    right: 360px;
+    bottom: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #dashboard img {
+    width: 100%;
+    height: 88%;
+} */
+
+#dashboard #reservoirs-container #reservoir:nth-child(1) div .barcontainer .bar {
+    height: 70% !important;
+}
+
+#dashboard #reservoirs-container #reservoir:nth-child(2) div .barcontainer .bar {
+    height: 85% !important;
 }
